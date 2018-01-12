@@ -43,9 +43,14 @@ See [sqle/gitquet](https://github.com/sqle/gitquery) for an example.
 
 ```
 Short installation guide or link to longer installation instructions.
-This should include a pre-requisites subsection if needed.
-
 Are there Docker images, packages managers (brew, apt, etc), installations scripts?
+```
+
+## Requirements
+
+```
+This section is optional but it should include any pre-requisites needed to use this
+project.
 ```
 
 # Example of utilization
@@ -61,6 +66,15 @@ the user will eventually write.
 For instance, when writing Go examples, you should write the code so the
 import path appears in the code and any identifier used is qualified
 with the package name.
+
+For tools, consider showing a quick command that allows the user to get started.
+It might be something like:
+
+1. install the tool (make foo, apt-get install, or brew ...)
+2. foo -bar=qux stuff
+
+There's no need to refer to all options and flags at this point unless they're few.
+Instead consider linking to a reference document.
 ```
 
 # Contribute
